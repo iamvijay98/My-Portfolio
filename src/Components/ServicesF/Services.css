@@ -1,0 +1,122 @@
+.services{
+    max-width: 1300px;
+    min-height: 70vh;
+    margin:10px auto 0px;
+    padding: 100px 20px 10px;
+}
+.services h1{
+    font-size: 45px;
+    color: grey;
+    text-align: center;
+    width:fit-content;
+    margin: auto;
+    position: relative;
+}
+.services-group{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin:80px auto;
+    min-height: 40vh;
+}
+.services-box{
+    height: 100%;
+    border-radius: 20px;
+    padding:50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: .3s;
+    cursor: pointer;
+}
+.services-box svg{
+    font-size: 50px;
+    color: red;
+}
+.services-box .service-description{
+    margin-top: 30px;
+}
+.services-box .service-description h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.services-box .service-description p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #3c3e41;
+}
+.services-box:hover{
+    background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    transform: translateY(-8px);
+}
+.services-box:hover *{
+    color: #ffff; 
+}
+.services-box:hover .service-description p{
+    color: #ffff;
+}
+.services-box:hover svg{
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+}
+  /* --large devices-- */
+
+@media screen and (max-width:1120px){
+    .services{
+        padding: 100px 0px 10px;
+    }
+    .services-group{
+        width: 90%;
+        column-gap: 30px;
+    }
+    .services-box{
+        padding:40px 30px 30px 30px;
+    }
+    .services-box .service-description{
+        margin-top: 15px;
+    }
+}
+
+/* --medium devices-- */
+
+@media screen and (max-width:768px){
+    .services-group{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        margin:80px auto;
+        min-height: 40vh;
+    }
+}
+@media screen and (max-width:576px){
+    .services{
+        padding: 90px 0px 10px;
+    }
+    .services h1{
+        font-size: 34px;
+    }
+    .services-group{
+        width: 90%;
+        row-gap:30px;
+        margin:50px auto;
+    }
+    .services-box{
+        padding:30px 25px 30px 25px;
+    }
+    .services h1::after{
+        width: 100px;
+    }
+    .services-box .service-description h2{
+        font-size: 21px;
+    }
+
+}
+
+
+/* --small devices-- */
+
+@media screen and (max-width:350px){
+    
+}
