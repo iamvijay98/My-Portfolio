@@ -45,8 +45,8 @@ const Contact = () => {
                     </div>
 
                     <div className="input-box">
-                        <label htmlFor="Email">Email</label>
-                        <input type="email" name="Email" id="Email" placeholder='Enter Your Email' required/>
+                        <label htmlFor="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder='Enter Your Email' required/>
                     </div>
 
                     <div className="input-box">
