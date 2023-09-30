@@ -140,6 +140,11 @@
     .projects-box .projects-content h2{
         font-size: 17px;
     }
+    .projects-box .projects-content p{
+        font-size: 14px;
+        line-height: 28px;
+        color: #3c3e41;
+    }
 }
 
 
