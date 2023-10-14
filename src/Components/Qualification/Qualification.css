@@ -16,7 +16,8 @@
 
 .qualification >p{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .outer{
     width: 80%;
@@ -112,8 +113,8 @@
         font-size: 34px;
         margin-bottom: 20px;
     }
-    .qualification p{
-        font-size: 15px;
+    .qualification >p{
+        font-size: 20px;
     }
     .education-lists h2{
         font-size:15px;

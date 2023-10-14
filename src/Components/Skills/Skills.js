@@ -28,7 +28,7 @@ const Skills = () => {
            }
          }}
         className="skills-group">
-           <p>Frontend Technologies</p>
+           <p><span>Frontend </span>Technologies</p>
           <div className="skills-left">
             <div className="skills-list">
                   <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/html-icon.svg" alt="html5" />
@@ -43,6 +43,11 @@ const Skills = () => {
               <div className="skills-list">
                   <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.svg" alt="bootstrap" />
                   <p>Bootstrap</p>
+              </div>
+
+              <div className="skills-list">
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.svg" alt="bootstrap" />
+                  <p>Tailwind CSS</p>
               </div>
 
               <div className="skills-list">
