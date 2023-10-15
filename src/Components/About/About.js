@@ -1,8 +1,9 @@
 import React from 'react'
 import "../About/About.css"
-import CV from "../../assets/VIJAYARAGAVENDRAN K RESUME.pdf"
+import CV from "../../assets/VIJAYARAGAVENDRAN.pdf"
 import { motion } from 'framer-motion'
 import profile from "../../assets/WhatsApp Image 2023-09-28 at 12.02.57 PM.jpeg"
+
 
 const About = () => {
   return (
