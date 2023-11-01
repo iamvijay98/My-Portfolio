@@ -38,10 +38,10 @@ export const projects =[
     },
     {
         src:project5, 
-        title:"Restaurant Website Design",
-        desc:"A static restaurant website is a simple web page that showcases a restaurant's information, menu items, and contact details.",
-        href1:"https://github.com/iamvijay98/Restaurant-Website-Design" ,
-        href2:"https://iamvijay98.github.io/Restaurant-Website-Design/",
+        title:"Fitness-Gym-Website-Design",
+        desc:"Fitness is a Taiwind CSS template for fitness websites. This responsive gym website template is an elegant site skin for fitness centers, gyms, yoga studios, and other related organizations.",
+        href1:"https://github.com/iamvijay98/Fitness-Gym-Website-Design" ,
+        href2:"https://fitness-gym-website-design.netlify.app/",
     },
     {
         src:project6, 

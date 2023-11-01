@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Footer/Footer.css"
-import { AiOutlineArrowUp } from "react-icons/ai"
+import { TbArrowBigUpFilled } from "react-icons/tb"
 import { useState } from 'react'
 
 const Footer = () => {
@@ -67,7 +67,7 @@ const Footer = () => {
                 style={visible ? {display:'block'} : {display:"none"}}
                 onClick={scrollTop}
                 >
-          <AiOutlineArrowUp />
+          <TbArrowBigUpFilled className='arrowUp'/>
         </button>
     </div>
   )

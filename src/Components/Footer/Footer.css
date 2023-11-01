@@ -8,15 +8,19 @@
 }
 .scrollUp{
     position:fixed;
-    right: 50px;
-    bottom: 80px;
-    font-size: 20px;
+    right: 30px;
+    bottom: 30px;
     border-radius: 5px;
-    padding: 0px 5px;
-    color: black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
     border: none;
     transition: .3s;
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.arrowUp{
+    font-size: 30px;
 }
 .scrollUp:hover{
     transform: translateY(-5px);
