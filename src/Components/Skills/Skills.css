@@ -71,9 +71,6 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    border: 2px solid orangered;
-    padding: 0px;
-    border-radius: 5px;
 }
 .skills-list img{
     width: 55px;
