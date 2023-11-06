@@ -113,7 +113,8 @@ nav{
     }
     
     .nav-links a{
-        font-size: 16px;
+        font-size: 14px;
+        color: rgb(75, 74, 74);
     }
 }
 

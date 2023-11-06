@@ -36,7 +36,6 @@ const Footer = () => {
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#qualification">Qualification</a>
-        <a href="#services">Services</a>
         <a href="#projects">Projects</a>
       </div>
 

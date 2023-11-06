@@ -38,7 +38,6 @@ const Nav = () => {
                 <a href="#about">About me</a>
                 <a href="#skills">Skills</a>
                 <a href="#qualification">Qualification</a>
-                <a href="#services">Services</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
