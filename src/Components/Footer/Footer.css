@@ -1,6 +1,6 @@
 .footer{
     max-width: 1300px;
-    margin: 100px auto 15px;
+    margin:auto;
     border-top: 1px solid #b5b4b4;
     padding: 40px;
     text-align: center;
@@ -83,11 +83,7 @@
 }
 /* --medium devices-- */
 
-@media screen and (max-width:768px){
-    .footer{
-        margin: 100px auto 10px;
-    }
-}
+
 @media screen and (max-width:576px){
     .footer{
         width: 92%;

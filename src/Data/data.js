@@ -19,8 +19,8 @@ export const projects =[
         src:project2, 
         title:"React Todo App",
         desc:'The "React Todo List with Local Storage" project is a web-based task management application developed using React.',
-        href1:"https://github.com/iamvijay98/Todo-List-App",
-        href2:"https://iamvijay98.github.io/Todo-List-App/",
+        href1:"https://github.com/iamvijay98/React-TodoApp",
+        href2:"https://reactify-todo-app.netlify.app/"
     },
     {
         src:project3, 

@@ -1,8 +1,7 @@
 .contact{
     max-width: 1300px;
-    min-height: 100vh;
-    margin:100px auto 0px;
-    padding: 100px 40px 10px;
+    margin:auto;
+    padding: 0px 40px 150px;
 }
 .contact h1{
     text-align: center;
@@ -14,7 +13,7 @@
 }
 .contact-right{
     width: 60%;
-    margin:55px auto;
+    margin:auto;
     padding: 20px 30px;
     box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;;
     border-radius: 10px;
@@ -88,7 +87,7 @@ form button:hover svg{
 
 @media screen and (max-width:1120px){
     .contact{
-        padding: 100px 20px 10px;
+        padding:0px 20px 150px;
     }
     .contact-group{
         display: grid;
@@ -131,7 +130,7 @@ form button:hover svg{
         margin-top: 50px;
     }
     .contact{
-        padding: 90px 10px 10px;
+        padding: 0px 10px 100px;
     }
     .contact-left .contact-box{
         width: 100%;

@@ -1,12 +1,12 @@
 .about{
     display: grid;
-    min-height: 60vh;
     grid-template-columns: 1fr 1.2fr;
     max-width:1300px ;
     margin: auto;
-    padding: 150px 40px 10px;
+    padding: 0px 40px 150px;
     border-radius: 10px;
     align-items: center;
+
 }
 .about-left{
     width: 100%;
@@ -73,7 +73,7 @@
     .about{
         grid-template-columns: .9fr 1.4fr;
         margin: auto;
-        padding: 150px 20px 10px;
+        padding: 0px 10px 150px;
     }
     .about-left{
         width: 100%;
@@ -98,7 +98,7 @@
 @media screen and (max-width:768px){
     .about{
         grid-template-columns: 1fr;
-        padding: 100px 40px 10px;
+        padding: 0px 40px 150px;
     }
     .about-left{
         text-align: center;
@@ -120,7 +120,7 @@
 @media screen and (max-width:576px){
     .about{
         grid-template-columns: 1fr;
-        padding: 80px 20px 10px;
+        padding: 0px 20px 150px;
     }
     .about-left img{
         width: 95%;

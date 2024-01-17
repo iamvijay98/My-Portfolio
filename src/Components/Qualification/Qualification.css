@@ -2,7 +2,7 @@
     max-width: 1300px;
     min-height: 70vh;
     margin:30px auto 0px;
-    padding: 100px 40px 10px;
+    padding: 0px 40px 150px;
     border-radius: 10px;
 }
 .qualification h1{
@@ -82,9 +82,7 @@
 /* --medium devices-- */
 
 @media screen and (max-width:768px){
-    .qualification{
-        padding: 100px 10px 10px 40px;
-    }
+    
     .outer{
         width: 80%;
         border-left: 1px solid #333;
@@ -106,9 +104,6 @@
     }
 }
 @media screen and (max-width:576px){
-    .qualification{
-        padding: 80px 10px 10px 25px;
-    }
     .qualification h1{
         font-size: 34px;
         margin-bottom: 20px;

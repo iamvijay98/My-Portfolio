@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import "../NavBar/Nav.css"
-import { motion } from 'framer-motion'
 import {FiMenu} from "react-icons/fi"
 import {RiCloseFill} from "react-icons/ri"
 
@@ -31,7 +30,7 @@ const Nav = () => {
     : {boxShadow:"none"}}
     >
         <div className="nav-groups">
-            <a href="#" className='myName'><span>Vijay</span>aragavendran</a>
+            <a href="#header" className='myName'><span>Vijay</span>aragavendran</a>
 
             <div className={isBurgerOpen ? "nav-links active" : "nav-links"}>
                 <a href="#header">Home</a>

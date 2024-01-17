@@ -1,8 +1,6 @@
 .skills{
-    min-height: 80vh;
     width: 100%;
-    margin:30px auto 0px;
-    padding: 100px 0px 10px;
+    padding: 0px 40px 150px;
 }
 .skills h1{
     text-align: center;
@@ -24,7 +22,6 @@
 }
 .skills-group{
     max-width: 800px;
-    min-height: 400px;
     margin: auto;
     transition: .3s;
     padding: 0px 20px;
@@ -92,7 +89,6 @@
 @media screen and (max-width:1120px){
     .skills{
         width:100%;
-        margin:30px auto 0px;
     }
     .skills-container{
         display: grid;
@@ -107,7 +103,6 @@
 @media screen and (max-width:768px){
     .skills{
         width:100%;
-        margin:30px auto 0px;
     }
     .skills-list img{
         width: 40px;
